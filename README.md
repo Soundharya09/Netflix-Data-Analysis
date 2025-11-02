@@ -24,7 +24,7 @@ Key steps in your notebook include:
 - Converted date columns (Release_Date) into proper datetime formats.
 - Removed duplicates and irrelevant columns.
 - Standardized text data (titles, genres, etc.) for better grouping and analysis.
-- Categorized the “Vote_Average” column into four interpretive buckets: popular, average, below_avg, not_popular using a custom function categorize_col() for descriptive clarity.
+- Categorized the *Vote_Average* column into four interpretive buckets: popular, average, below_avg, not_popular using a custom function *categorize_col()* for descriptive clarity.
 - Split the Genre column into a list and used explode() to analyze movies with multiple genres more effectively.
 
 ## Feature Engineering:
@@ -64,8 +64,7 @@ Your notebook uses Matplotlib and Seaborn extensively:
 - Countplots, Boxplots, Heatmaps, Histograms, and Bar Charts for summarizing relationships.
 - Genre-wise popularity comparisons using grouped bar charts.
 - Temporal trends visualized with line charts.
-- Enhanced readability using Seaborn’s set_style() and consistent color themes.
-These visuals effectively communicate key findings and make storytelling intuitive.
+- Enhanced readability using Seaborn’s *set_style()* and consistent color themes. 
 
 ## Insights & Findings:
 From the analysis:
@@ -80,7 +79,7 @@ From the analysis:
 - Python: Core language
 - Libraries: Pandas, NumPy, Matplotlib, Seaborn
 - Environment: Jupyter Notebook
-- Techniques: Data Cleaning, Categorization, EDA, Feature Engineering, Visualization
+- Techniques: Data Cleaning, Data Pre-processing, EDA, Data Visualization
 
 ## Deliverables:
 - Cleaned dataset ready for further ML modeling.
